@@ -1,13 +1,11 @@
 document.getElementById('yesBtn').addEventListener('click', function() {
-    // Redireciona para o YouTube com uma música romântica
-    window.location.href = 'https://www.youtube.com/watch?v=nyuo9-OjNNg';
+    window.location.href = 'https://www.youtube.com/watch?v=DkVCb-81KFU&list=RDDkVCb-81KFU&start_radio=1';
 });
 
 document.getElementById('noBtn').addEventListener('mouseover', function() {
     const btn = document.getElementById('noBtn');
     const container = document.querySelector('.container');
     
-    // Posição aleatória para o botão
     const x = Math.random() * (container.clientWidth - btn.clientWidth);
     const y = Math.random() * (container.clientHeight - btn.clientHeight);
     
